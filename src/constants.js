@@ -228,7 +228,7 @@ export const SkillsInfo = [
       id: 7,
       title: "Movie Recommendation",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+         "Developed a content-based recommendation engine using cosine similarity to suggest top movies from a dataset of 5,000+ titles. Deployed an interactive Streamlit web interface enabling real-time movie search and recommendations.",
       image: movie,
       tags: ["NLP","python","scikit Learn","pandas","numpy"],
       github: "https://github.com/risingstar185/movie-recommedation",
@@ -237,21 +237,11 @@ export const SkillsInfo = [
     {
       id: 8,
       title: " Edutech Chat Bot",
-      description:
-        "Developed a content-based recommendation engine using cosine similarity to suggest top movies from a dataset of 5,000+ titles. Deployed an interactive Streamlit web interface enabling real-time movie search and recommendations.",
+      description:"A build a chat bot using a html ,CSS,Javascript and with the gemini api",
       image: removebgLogo,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       github: "https://github.com/risingstar185/EduTechChatBot",
       webapp: "https://risingstar185.github.io/EduTechChatBot/",
     },
-     {
-      id: 9,
-      title: " E-commerce Website",
-      description:
-        "An efficient ShopEase app built with React ,Node,Mongoose, Express and  integrating Rest API we try to build real world appilication.",
-      image: oneCart,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/risingstar185/c-commerce",
-      webapp: "https://shopeaseone.onrender.com/",
-    },
+    
   ];  
