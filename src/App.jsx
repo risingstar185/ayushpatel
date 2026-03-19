@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
 import ReviewCards from "./components/Experience/Experience";
+import Certifications from "./components/Certifications/Certification";
 
 const App = () => {
   return (
@@ -25,7 +26,9 @@ const App = () => {
     {   /* <Experience />*/}
         <Work />
         <Education />
+        <Certifications/>
            <ReviewCards/>
+
         <Contact />
         <Footer />
      

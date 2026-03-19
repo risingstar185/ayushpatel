@@ -1,7 +1,8 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from "react-parallax-tilt";
-import profileImage from "../../assets/ayush.jpg";
+import { motion } from "framer-motion";
+import profileImage from "../../assets/image.png";
 
 const About = () => {
   return (
@@ -12,21 +13,46 @@ const About = () => {
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
 
         {/* LEFT SECTION */}
-        <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
+        <motion.div
+          initial={{ opacity: 0, x: -80 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          className="md:w-1/2 text-center md:text-left mt-8 md:mt-0"
+        >
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2"
+          >
             Hi, I am
-          </h1>
+          </motion.h1>
 
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4"
+          >
             Ayush Patel
-          </h2>
+          </motion.h2>
 
           {/* Typing Effect */}
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+          <motion.h3
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6 }}
+            className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec]"
+          >
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={["Full Stack Developer","Python Developer", "MERN Stack Developer", "Machine Learning Enthusiast"]}
+              text={[
+                "Full Stack Developer",
+                "Python Developer",
+                "MERN Stack Developer",
+                "Machine Learning Enthusiast",
+              ]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
@@ -35,30 +61,47 @@ const About = () => {
                 <span className="text-[#8245ec]">{cursor}</span>
               )}
             />
-          </h3>
+          </motion.h3>
 
-          {/* About Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a passionate Fullstack Developer skilled in the MERN stack, creating responsive and user-friendly web applications. I am also exploring Machine Learning and aim to build intelligent, efficient, and impactful digital solutions. I enjoy collaborative environments and continuously enhance my skills.
-          </p>
+          {/* Paragraph */}
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8 }}
+            className="text-base sm:text-lg text-gray-400 mb-10 mt-8 leading-relaxed"
+          >
+            I am a passionate Fullstack Developer skilled in the MERN stack,
+            creating responsive and user-friendly web applications. I am also
+            exploring Machine Learning and aim to build intelligent, efficient,
+            and impactful digital solutions.
+          </motion.p>
 
-          {/* Resume Button */}
-          <a
-            href="https://drive.google.com/file/d/1mWeSlD6GIGjQjzKglhQnBCzYtrvE3_4L/view?usp=sharing"
+          {/* Button */}
+          <motion.a
+            href="https://drive.google.com/file/d/1kJNfli6EO1ZUpOH5SlsmyvEJW8Tmk836/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 1 }}
+            whileHover={{ scale: 1.1 }}
+            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold"
             style={{
               background: "linear-gradient(90deg, #8245ec, #a855f7)",
-              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
+              boxShadow: "0 0 20px #8245ec",
             }}
           >
-            DOWNLOAD RESUME
-          </a>
-        </div>
+           Get My Resume
+          </motion.a>
+        </motion.div>
 
         {/* RIGHT SECTION */}
-        <div className="md:w-1/2 -mt-15 flex justify-center md:justify-end">
+        <motion.div
+          initial={{ opacity: 0, x: 80 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          className="md:w-1/2 flex justify-center md:justify-end"
+        >
           <Tilt
             className="w-60 h-60 sm:w-72 sm:h-72 md:w-[28rem] md:h-[28rem] border-4 border-purple-700 rounded-full"
             tiltMaxAngleX={20}
@@ -71,10 +114,10 @@ const About = () => {
             <img
               src={profileImage}
               alt="Ayush"
-              className="w-full h-full rounded-full object-contain  drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              className="w-full h-full rounded-full object-contain drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
-        </div>
+        </motion.div>
 
       </div>
     </section>

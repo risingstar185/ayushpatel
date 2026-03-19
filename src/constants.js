@@ -49,8 +49,9 @@ import npmLogo from './assets/work_logo/whatsapp.png';
 import webverLogo from './assets/work_logo/netflix.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/chat.png'
-import oneCart from './assets/work_logo/onecart.png'
-
+import oneCart from './assets/work_logo/oneCart.png'
+import fixmyCity from './assets/work_logo/image1.png'
+import movie from './assets/work_logo/image.png'
 //review image 
 
 export const SkillsInfo = [
@@ -210,72 +211,34 @@ export const SkillsInfo = [
       github: "https://github.com/risingstar185/Object-detection",
       webapp: "#",
     },
-    {
-      id: 1,
-      title: "MUSIC WEBSITE",
-      description:
-        "This project features my original music composition created with HTML, CSS, and JavaScript. The music is available as an MP3 file in this repository Title: My Awesome Track ,Genre: Electronic / Chill ,Length: 3:45",
-      image: csprepLogo,
-      tags: [ "HTML", "CSS", "JavaScript",'API'],
-      github: "https://github.com/risingstar185/music-Website",
-      webapp: "https://clever-platypus-338e91.netlify.app/",
-    },
+ 
     {
       id: 2,
-      title: "TIC TAC TOE",
+      title: "FixMyCity",
       description:
-        "A movie website showcasing films, trailers, reviews, ratings, and user recommendations with a clean, interactive, and responsive interface.",
-      image: movierecLogo,
-      tags: [ "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/risingstar185/rising-ayush",
-      webapp: "https://risingstar185.github.io/rising-ayush/",
+     " Engineered a full-stack civic reporting platform with real-time socket notifications, RESTful APIs, and role-based authentication. Built an admin panel and analytics dashboard tracking report trends, user activity, and city-wide issue resolution metrics.",
+      image: fixmyCity,
+      tags: [ "MongoDB","Nodejs","Reactjs","Expressjs","Admin Panel"],
+      github: "https://github.com/risingstar185/FIXMYCITY.git",
+      webapp: "https://fixmycity-1ghy.onrender.com/",
     },
-    {
-      id: 3,
-      title: "Chatting App",
-      description:
-        "A MERN-based chatting app enabling real-time messaging with Node.js and Express backend, MongoDB for data storage, and React frontend. Features include user authentication, dynamic chat rooms, and instant message updates using WebSockets or Socket.io, providing a responsive, interactive platform for seamless communication between users across devices.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation",'Nodejs','Mongoose','Websocket','RTC','Tailwind CSS','HTML'],
-      github: "#",
-      webapp: "#",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "#",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Netflix Clone",
-      description:
-        "A full-stack Netflix Clone application built using modern web such as - mongodb,express.js ,react.js,node,js for backend server technologies.It fetches real-time movie & TV data from the TMDB API, providing users with a Netflix-like browsing experience.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion",'React','Mongoose','Nodejs','Expressjs'],
-      github: "https://github.com/risingstar185/Netflixclone",
-      webapp: "#",
-    },
+
   
     {
       id: 7,
-      title: "Image Search App",
+      title: "Movie Recommendation",
       description:
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["HTML", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/risingstar185/imagesearch",
-      webapp: "https://risingstar185.github.io/imagesearch/",
+      image: movie,
+      tags: ["NLP","python","scikit Learn","pandas","numpy"],
+      github: "https://github.com/risingstar185/movie-recommedation",
+      webapp: "https://movie-recommendation-qptknyqkevfryxtbv7z2rf.streamlit.app/",
     },
     {
       id: 8,
       title: " Edutech Chat Bot",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+        "Developed a content-based recommendation engine using cosine similarity to suggest top movies from a dataset of 5,000+ titles. Deployed an interactive Streamlit web interface enabling real-time movie search and recommendations.",
       image: removebgLogo,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       github: "https://github.com/risingstar185/EduTechChatBot",
