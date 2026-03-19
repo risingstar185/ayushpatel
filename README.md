@@ -1,59 +1,130 @@
-# 🌐 Animated Portfolio Website
+# 🌐 Ayush Patel - Portfolio Website
 
-A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project gained **27K+ views** on [YouTube]([https://youtube.com/your-video-link](https://youtu.be/ypSc8HEurGQ?si=yI3GJCye3sAKoemW)) – loved by developers and students for its modern design and clean code.
+Welcome to my personal portfolio website 🚀
+This project showcases my skills, projects, and experience as a **Full Stack Developer & Machine Learning Enthusiast**.
 
-## 🚀 Live Demo
+---
 
-🔗 [View Portfolio Live](https://tarunkaushik.vercel.app/)
+## 🔗 Live Demo
+
+👉 https://your-portfolio-link.vercel.app
+
+---
+
+## 📌 About Me
+
+I am a passionate developer skilled in the **MERN stack** and currently exploring **Machine Learning**.
+I enjoy building responsive web applications and solving real-world problems with technology.
+
+---
+
+## 🚀 Features
+
+* ✨ Modern UI with animations
+* 📱 Fully Responsive Design
+* 🎯 Interactive Project Showcase
+* 🧠 Typing Animation (React Typing Effect)
+* 🎨 3D Tilt Effects
+* 📜 Resume Download Option
+
+---
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React.js
-- 🎨 Tailwind CSS
-- 💾 Vercel(for deployment)
+* **Frontend:** React.js, Tailwind CSS
+* **Animations:** Framer Motion
+* **Effects:** React Parallax Tilt
+* **Other:** JavaScript, HTML, CSS
 
-## 📁 Features
+---
 
-- Responsive design for all screen sizes 📱💻
-- Smooth scroll and animation effects ✨
-- Clean and modular React components 🧩
-- Easy to customize with Tailwind utility classes 🎯
-- Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
+## 📂 Folder Structure
 
+```
+portfolio/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── About/
+│   │   ├── Skills/
+│   │   ├── Work/
+│   │   ├── Certifications/
+│   ├── constants.js
+│   ├── App.jsx
+│   ├── main.jsx
+```
 
-## 🧑‍💻 How to Use
+---
 
-### 1. Clone the Repo
+## ⚙️ Installation & Setup
 
-```bash
-git clone [https://github.com/codingmastr/Tarun-s-Portfolio.git]
-cd your-repo-name
-````
+Clone the repository:
 
-### 2. Install Dependencies
+```
+git clone https://github.com/risingstar185/ayushpatel.git
+```
 
-```bash
+Go to project directory:
+
+```
+cd ayushpatel
+```
+
+Install dependencies:
+
+```
 npm install
 ```
 
-### 3. Run the App
+Run the project:
 
-```bash
-npm start
+```
+npm run dev
 ```
 
-### 4. Build for Production
+---
 
-```bash
-npm run build
-```
+## 📸 Screenshots
 
-## 📹 YouTube Tutorial
+(Add your project screenshots here)
 
-Watch the full build on YouTube:
-📺 [React Portfolio Website - 27K+ Views](https://youtu.be/ypSc8HEurGQ?si=winjJhc9qzNrCqLD)
+---
 
-## 🌟 Credits
+## 📜 Certifications
 
-This project was created with ❤️ by [Tarun Kaushik](https://tarunkaushik.vercel.app/).
-If you like it, feel free to ⭐ this repository and share!
+* Machine Learning with Python – IBM
+* Deep Learning with Python – IBM
+* AWS Foundation Course – Intellipaat
+
+---
+
+## 📈 Future Improvements
+
+* 🌐 Add backend integration
+* 📊 Add analytics dashboard
+* 🧠 AI chatbot integration
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo and improve it.
+
+---
+
+## 📧 Contact
+
+* 📩 Email: [your-email@gmail.com](mailto:your-email@gmail.com)
+* 💼 LinkedIn: https://linkedin.com/in/your-profile
+* 💻 GitHub: https://github.com/risingstar185
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+### 🚀 Made with ❤️ by Ayush Patel
