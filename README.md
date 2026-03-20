@@ -7,7 +7,7 @@ This project showcases my skills, projects, and experience as a **Full Stack Dev
 
 ## 🔗 Live Demo
 
-👉 https://your-portfolio-link.vercel.app
+👉 https://ayush-patel.onrender.com
 
 ---
 
@@ -115,7 +115,7 @@ Contributions are welcome! Feel free to fork this repo and improve it.
 
 ## 📧 Contact
 
-* 📩 Email: [your-email@gmail.com](mailto:your-email@gmail.com)
+* 📩 Email: patelayush9554@gmail.com
 * 💼 LinkedIn: https://linkedin.com/in/your-profile
 * 💻 GitHub: https://github.com/risingstar185
 
