@@ -78,7 +78,7 @@ const About = () => {
 
           {/* Button */}
           <motion.a
-            href="https://drive.google.com/file/d/1kJNfli6EO1ZUpOH5SlsmyvEJW8Tmk836/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1G2DpHCQ9LURf6W1CFpk2gYluK3KmJ7JG/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.8 }}
